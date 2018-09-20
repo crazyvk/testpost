@@ -7,7 +7,7 @@ if(!session_id()){
 define('FACEBOOK_SDK_V4_SRC_DIR', __DIR__.'/src/Facebook/');
 require_once(__DIR__.'/src/Facebook/autoload.php');
 
-$redirectURL   = 'http://localhost:8080/test/show.php'; //Callback URL
+$redirectURL   = 'https://testpostvk.herokuapp.com/show.php'; //Callback URL
 $fbPermissions = array('publish_actions'); 
 
 $fb = new Facebook\Facebook([
