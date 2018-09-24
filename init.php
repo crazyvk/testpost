@@ -3,7 +3,7 @@
 
 session_start();
 
-require_once('Facebook/autoload.php');
+require_once(__DIR__.'/src/Facebook/autoload.php');
 
 // $fb = new Facebook\Facebook([
 // 'app_id' => 'APP_ID',
