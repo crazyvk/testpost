@@ -29,7 +29,7 @@
 	}
 	else{
 		$helper = $fb->getRedirectLoginHelper();
-		$permissions = ['email', 'user_posts', 'manage_pages', 'publish_actions', 'publish_pages'];
+		$permissions = ['email', 'user_posts', 'manage_pages', 'publish_pages'];
 		$callback   = 'https://testpostvk.herokuapp.com/show.php';
 		$loginUrl    = $helper->getLoginUrl($callback, $permissions);
 		echo '<a href="' . $loginUrl . '">Log in with Facebook!</a>';
